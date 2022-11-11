@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+    <title>Frontend Mentor | Room homepage</title>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  -->
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <button class="nav__hamburger" aria-label="Menu">
+                <span class="line line--1"></span>
+                <span class="line line--2"></span>
+                <span class="line line--3"></span>
+            </button>
+        
+            <figure>
+                <img src="images/logo.svg" alt="Room logo" class="nav-logo">
+            </figure>
+
+            <ul class="nav__menu">
+                <li><a href="#" class="nav__menu-link">Home</a></li>
+                <li><a href="#" class="nav__menu-link">Shop</a></li>
+                <li><a href="#" class="nav__menu-link">About</a></li>
+                <li><a href="#" class="nav__menu-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- When Menu is active -->
+        <div class="dark-background"></div>
+
+        <div class="header__figure__container">
+
+        	<figure class="header__figure slide-active">
+            	<img src="images/m-hero-1.jpg" alt="Room furniture" class="header__figure-image">
+        	</figure>
+
+        	<figure class="header__figure">
+            	<img src="images/m-hero-2.jpg" alt="Room furniture" class="header__figure-image">
+        	</figure>
+
+        	<figure class="header__figure">
+            	<img src="images/m-hero-3.jpg" alt="Room furniture" class="header__figure-image">
+        	</figure>
+
+        </div>
+
+        <div class="header__buttons">
+            <button class="header__buttons__btn prev">
+                <img src="images/icon-angle-left.svg" alt="Arrow left" id="prev-btn" class="header__buttons__btn-img">
+            </button>
+            <button class="header__buttons__btn next">
+                <img src="images/icon-angle-right.svg" alt="Arrow right" id="next-btn" class="header__buttons__btn-img">
+            </button>
+        </div>
+    </header>
+
+    <section class="texts">
+        <div class="texts__wrap">
+
+            <div class="texts-slide slide-active">
+            	<h1 class="texts__wrap-title">Discover innovative ways to decorate</h1>
+            	<p class="texts__wrap-paragraph">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
+            </div>
+
+            <div class="texts-slide">
+            	<h1 class="texts__wrap-title">We are available all across the globe</h1>
+            	<p class="texts__wrap-paragraph">With stores all over the world, it's easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? Don't hesitate to contact us today.</p>
+            </div>
+
+            <div class="texts-slide">
+            	<h1 class="texts__wrap-title">Manufactured with the best materials</h1>
+            	<p class="texts__wrap-paragraph">Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office.</p>
+            </div>
+
+        </div>
+        <a href="#" class="texts-cta">Shop now <img src="images/icon-arrow.svg" alt=""></a>
+    </section>
+
+    <section class="about">
+        <figure class="about__figure">
+            <img src="images/image-about-dark.jpg" alt="Room furniture" class="about__figure-img">
+        </figure>
+        <div class="about__texts">
+            <h2 class="about__texts-title">About our furniture</h2>
+            <p class="about__texts-paragraph">Our multifunctional collection blends design and function to suit your individual taste.Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
+        </div>
+        <figure class="about__figure">
+            <img src="images/image-about-light.jpg" alt="Room furniture" class="about__figure-img">
+        </figure>
+    </section>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <script src="js/menu.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/change-header-images.js"></script>
+    
+</body>
+</html>
