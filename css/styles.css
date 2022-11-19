@@ -274,7 +274,7 @@ body {
 }
 
 .texts__wrap-title {
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 700;
 	color: #000;
 }
@@ -408,6 +408,7 @@ body {
 	body {
 		display: grid;
 		grid-template-columns: 60% 40%;
+		grid-template-rows: 500px auto;
 		font-size: 14px;
 	}
 
